@@ -1,3 +1,9 @@
+avrdude (6.3-20171130+svn1429+linuxspi-1) UNRELEASED; urgency=medium
+
+  * Apply linuxspi patch (#9816).
+
+ -- Jurgis Brigmanis <velko.x@gmail.com>  Sun, 17 Nov 2019 20:14:22 +0200
+
 avrdude (6.3-20171130+svn1429-2) sid; urgency=medium
 
   * revert usbtiny tpi implementation (closes: #922558)
