@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
-	CONFFLAGS += --enable-linuxgpio
+	CONFFLAGS += --enable-linuxgpio --enable-linuxspi
 endif
 %:
 	dh $@ --with autoreconf
